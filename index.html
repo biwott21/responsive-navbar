@@ -5,8 +5,9 @@
     <title>Executive Curtain Rods</title>
     <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
     <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="main.js">
     <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
     <body>
        <nav>
@@ -17,18 +18,91 @@
         <!--<label class="logo"> Executive</label>-->
         <a class="logo "> <img src="asset/logo2.png" alt=""></a>
         <ul>
-            <li><a class="active"  href="#">Home</a></li>
-            <li><a href="#">products</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">team</a></li>
-            <li><a href="#">gallery</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a class="active"  href="#hero">Home</a></li>
+            <li><a href="#product">products</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#team">team</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
        </nav> 
        <!--home section-->
-       <section>
-         
-       </section>
+       <section id="hero">
+        
+        <div class="hom">
+            <div class="home">
+         <h2>Kenya's no 1 <br> Curtain Rods Store!</h2>
+         <P><I>Quality, Affordable & Durable</I></P> 
+<!--
+         <div class="  w3-xlarge  ">
+            <h1 style="margin-right: 80px;  float: right;"><span class="w3-tag w3-red">0723518210</span></h1>
+            <h1></h1>
+          </div>
+            </div>
+-->
+
+            <style>
+                .mySlides {display:none;
+                           margin-bottom: 30px;}
+                </style>
+         <div class="w3-content" style="max-width:400px">
+            <div class="mySlides w3-container w3-red">
+         <h1><b>Did you know?</b></h1>
+         <h1 style="font-size: x-large;"><i>We are the leading curtain rods manufacturers in kenya?</i></h1>
+            </div>
+
+        <img class="mySlides" src="asset/about.bg.jpg" style="width: 100%;">
+
+        <div class="mySlides w3-container w3-xlarge w3-blue">
+            <h1><span class="w3-tag w3-yellow">New!</span></h1>
+            <h1>Double quality Brackets</h1>
+            <h1>Only $2.99 !!!</h1>
+          </div>
+
+          <div class="mySlides w3-container w3-red">
+            <h1 class="w3-tag w3-yellow"><b>Top seller!</b></h1>
+            </h1 ><i>Complete Rods Package/mtr</i></h1>
+            <h1>Only $17.99 !!!</h1>
+               </div>
+           
+               <div class="mySlides w3-container w3-blue">
+                <h1 class="w3-tag w3-yellow"><b>Buy now!</b></h1>
+                <h1>Free installation!!!</h1>
+                <h1> <i>Nairobi and environments.</i>  </h1>
+                   </div>
+        
+          <img class="mySlides" src="asset/rod china.png" style="width:100%">
+
+       </div>
+       <script>
+        var slideIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1} 
+          x[slideIndex-1].style.display = "block"; 
+          setTimeout(carousel, 2000); 
+        }
+        </script>
+
+         </div>
+        </section>
        <!--END -->
+       
     </body>
-</html>
+    </html>
+
+
+
+
+   
+    
+   
+    
+    
