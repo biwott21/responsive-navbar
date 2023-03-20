@@ -33,7 +33,7 @@ nav ul li a{
     border-radius: 3px;
 }
 a.active, a:hover{
-    background: #1b9bff;
+    background: #c0aa83;
     transition: 5s;
 }
 .checkbtn{
@@ -83,7 +83,7 @@ a.active, a:hover{
     }
     a.active, a:hover{
         background: none;
-        color:#0082e6 ;
+        color:#c0aa83;
     }
     #check:checked ~ ul{
         left: 0;
@@ -94,6 +94,23 @@ a.active, a:hover{
         background-size: cover;
         height: calc(100vh - 80px);
     }
+
+    .section-header {
+        text-align: center;
+        padding-bottom: 30px;
+        background-color: #f3f7fa;
+      }
+      
+      .section-header h2 {
+        font-size: 42px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        color: #7f7f90;
+        text-transform: uppercase;
+        color: #c0aa83;
+      }
     /*- home section--*/
     .home h2{
         font-size: 54px;
@@ -115,3 +132,260 @@ a.active, a:hover{
     
 
   
+ /*--About--*/
+
+      .about{
+        width: 100%;
+        padding: 78px 0px;
+        background-image: none;
+        background-color: rgb(250, 246, 241);
+      }
+      .about img{
+        height: auto;
+        width: 420px;
+      }
+      .about-text{
+        width: 550px;
+
+      }
+      .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+      }
+      .about-text h1{
+        color: #c0aa83;
+        font-size: 50px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      .about-text h5{
+        color:#c0aa83;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+    
+      }
+      .about-text p{
+        color: black;
+       font-family: Arial, Helvetica, sans-serif;
+        line-height: 28px;
+        font-size: 14px;
+        margin-bottom: 45px;
+      }
+      
+
+span{
+        color: black;
+       }
+       /*--
+       button{
+        background-color:;
+        color: black;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 8px 14px;
+        border-radius: 10px;
+       }--*/
+ .page-section{
+  background-image: none;width: auto; height: 100%;
+ }
+       
+  .masthead2{
+
+    background-image: url("");
+    background-position: 50% -26px;
+    background-color:#242424;
+  }
+  .product-sidebar-list{
+    color: #242424;
+  }
+  
+  .product-sidebar-list:hover{
+    color: #c0aa83;
+  }
+  
+  .card-title{
+    color: #c0aa83;
+    font-family: 'Kanit',sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  .card-text{
+    font-family: 'Kanit',sans-serif;
+    font-size: 13px;
+  }
+  
+  .price-tag{
+    color: #c0aa83;
+    font-family: 'Kanit',sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  .button-text{
+    font-family: 'Kanit',sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  
+  .product-image{
+    width: 200px;
+    height: 200px;
+  }
+  
+  /*-contact-*/
+  .contact-us{
+    background-image: none;
+    background-color: #e4e2de;
+  }
+  .contact h2{
+    font-size: 48px;
+    color: #c0aa83;
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  a.social-icon{
+    color:#242424;
+  }
+  
+  a.social-icon:hover{
+    color:#c0aa83;
+  }
+  
+  .social-icon{
+    background-color: #ECE4C3;
+    width: 80px;
+    height: 80px;
+    padding:20px;
+    margin: 10px;
+  }
+  
+  .social-icon a{
+    background-color: #B98C45;
+    width: 50px;
+    height: 50px;
+    padding:10px 16px;
+    margin-right: 6px;
+    position: relative;
+    display: block;
+  
+  }
+  
+  .social-icon a:hover{
+    color:#242424;
+  
+  }
+  
+  .boxed{
+    background-color: #c0aa83;
+    height: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+  
+  
+  .subscribe-section{
+    background-image: url("../img/footer_map.png");
+    background-color:#242424;
+  }
+  
+  .contact-heading{
+    color: #c0aa83;
+    font-family: 'Kanit',sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .info-container
+{
+  display: flex;
+  margin: auto;
+}
+  .contact-info{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: #ebe6e6;
+    padding: 30px;
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    
+  }
+  .info{
+    background-color: #726b5c;
+    padding-left: 20px;
+    
+  }
+  
+
+  .contact-info h3 {
+    font-size: 20px;
+    color: #c0aa83;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+  }
+  
+  .contact-info p {
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .contact-info iframe{
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  /*--team--*/
+  .meet-us{
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    background-color: #f5f4f3;
+    margin-top: 20px;
+     box-sizing: border-box;
+  }
+  .team h2{
+    color: #c0aa83;
+    text-align: center;
+    font-size: 48px;
+
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .title {
+    color: grey;
+  }
+   .email-1{
+    
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;   }
+  
+  .container h2{
+    color: black;
+    font-size: 28px;
+
+  }
+
+  .image-team{
+      width:  300px;
+      height: 200px;
+      object-fit: cover;
+      margin-top: 10px;
+      margin-left: 55px;
+  }
